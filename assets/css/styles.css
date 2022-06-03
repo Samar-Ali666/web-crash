@@ -1,0 +1,22 @@
+.custom-heading {
+	color : blue;
+	text-align : center;
+}
+
+.blue-heading {
+	color: blue;
+}
+
+.red-heading {
+	color: red;
+}
+
+.green-heading {
+	color: green;
+}
+
+#speacial-heading {
+	color: dodgerblue;
+	text-align: center;
+	margin-top: 100px;
+}
