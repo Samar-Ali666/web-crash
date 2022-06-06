@@ -73,3 +73,69 @@ body {
 .header-1 p {
 	text-align: center;
 }
+
+.shopping-list {
+	border: 1px #ccc solid;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.shopping-list h2 {
+	text-align: center;
+}
+
+.shopping-list ul {
+	padding: 0;
+	/*list-style: square;*/
+	list-style: none;
+}
+
+.shopping-list ul li {
+
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ccc;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: yellow;
+}
+
+.form-main {
+	padding: 35px;
+}
+
+.form-main .form-group {
+	padding-bottom: 20px;
+}
+	
+.form-main label {
+	display: block;
+}
+
+.form-main input[type="text"], .form-main textarea {
+	padding: 6px;
+	width: 100%;
+}
+
+.form-main .main-form-btn {
+	padding: 10px;
+	border: none;
+	background-color: #40eca1;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.form-main .main-form-btn:hover {
+	background-color: #98FB98;
+}
+
