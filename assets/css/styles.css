@@ -1,90 +1,30 @@
-body {
-	background-color: #f4f4f4;
-	color: #555;
-	font-family: Arial, helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.6em;
-	margin: 0;
-}
 
-.container {
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
-}
+/* Element transformation  */
 
-#main-header {
+/*div {
+	width: 300px;
+	height: 100px;
 	background-color: dodgerblue;
-	color: #fff;
-}
-
-#navbar {
-	background-color: #333;
-	color: #fff;
-}
-
-#navbar ul {
-	padding: 0;
-	list-style: none;
-}
+	border: 1px solid darkblue;
+	transform: translate(400px, 200px);
+	transform: rotate(90deg);
+	transform: scale(2, 3);
+	transform: scaleX(2);
+	transform: scaleY(3);
+	transform: skew(40deg, 40deg);
+	transform: rotateZ(45deg);
+}*/
 
 
-#navbar li {
-	display: inline;
-}
+/* Transitions  */
 
-#navbar a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
-}
-
-#main-showcase {
-	background-image: url('../img/header-img.jpg');
-	background-position: center center;
-	height: 500px;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-#main-showcase h1 {
-	color: #fff;
-	font-size: 50px;
-	line-height: 1.6em;
-	padding-top: 40px;
-}
-
-.header-btn {
-	padding: 15px 20px;
-	border: none;
-	border-radius: 5px;
+div {
+	width: 200px;
+	height: 200px;
 	background-color: dodgerblue;
-	color: #fff;
+	transition: 1s;
 }
 
-#welcome {
-	float: left;
-	width: 70%;
-	padding: 0px 30px;
-	box-sizing: border-box;
+div:hover {
+	transform: rotate(180deg);
 }
-
-#sidebar {
-	float: right;
-	width: 30%;
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	box-sizing: border-box;
-}
-
-#footer {
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 20px;
-	margin-top:  40px;
-}
-
-
