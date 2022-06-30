@@ -1,0 +1,25 @@
+body::before {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+#clients img {
+    width: 50%;
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+
+#clients img:hover {
+    filter: none;
+}
+
+.custom-section h1::after {
+    content: "";
+    display: block;
+    width: 10%;
+    margin: auto;
+    background: #0d6efd;
+    height: 5px;
+    margin-top: 5px;
+}
